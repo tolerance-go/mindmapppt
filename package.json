@@ -6,7 +6,7 @@
    "author": "",
    "scripts": {
       "bundle": "turbo run lint build test --concurrency=2 --filter={'./apps/*'}...",
-      "ci": "pnpm pull && pnpm submodule:pull && pnpm install && pnpm prebuild && pnpm pretest && pnpm bundle && pnpm postbuild",
+      "ci": "git pull && pnpm submodule:pull && pnpm install && pnpm prebuild && pnpm pretest && pnpm bundle && pnpm postbuild",
       "clean": "git clean -dfX",
       "dev": "pnpm -r --parallel --filter=@fenxing/nooo-ui... run dev",
       "format": "prettier '**/*.{css,js,mjs,ts,tsx,md,mdx}' --write",
