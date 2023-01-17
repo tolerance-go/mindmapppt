@@ -1,5 +1,5 @@
 import 'impress.js/css/impress-common.css'
-import './styles/reset.css'
 import './dist/impress.css'
-import './dist/themes/light.css'
 import './dist/themes/dark.css'
+import './dist/themes/light.css'
+import './styles/reset.css'

@@ -6,7 +6,7 @@
    "author": "",
    "scripts": {
       "bundle": "turbo run lint build test --concurrency=2 --filter={'./apps/*'}...",
-      "ci": "pnpm install && pnpm prebuild && pnpm pretest && pnpm bundle && pnpm postbuild",
+      "ci": "pnpm pull && pnpm submodule:pull && pnpm install && pnpm prebuild && pnpm pretest && pnpm bundle && pnpm postbuild",
       "clean": "git clean -dfX",
       "dev": "pnpm -r --parallel --filter=@fenxing/nooo-ui... run dev",
       "format": "prettier '**/*.{css,js,mjs,ts,tsx,md,mdx}' --write",
@@ -18,9 +18,9 @@
       "prepare": "husky install",
       "pretest": "pnpm -r --if-present --filter={'./apps/*'}... run pretest",
       "test": "turbo run test --concurrency=2 --filter={'./apps/*'}...",
-      "submodule:init": "git submodule update --init --recursive",
+      "submodule:update": "git submodule update --init --recursive",
       "submodule:checkout-master": "git submodule foreach --recursive git checkout master",
-      "submodule:git-pull": "git submodule foreach --recursive git pull origin master",
+      "submodule:pull": "git submodule foreach --recursive git pull origin master",
       "submodule:sync": "git submodule sync --recursive"
    },
    "devDependencies": {

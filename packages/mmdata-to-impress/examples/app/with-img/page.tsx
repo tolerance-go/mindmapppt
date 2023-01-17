@@ -8,7 +8,6 @@ export default async function PlaygroundRevealPage() {
             imgSrcPrefix='/demo'
             data={[
                {
-                
                   id: 'b6fba32a5998f4471032b9a135',
                   title: '中心主题',
                   imgUrls: [

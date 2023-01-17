@@ -122,7 +122,8 @@ export const UploadButton = () => {
                         >
                            <path d='M7 17L17 7M7 7h10v10'></path>
                         </svg>
-                     </a>，建议先将其他格式转为 xmind 再继续操作
+                     </a>
+                     ，建议先将其他格式转为 xmind 再继续操作
                   </span>
                </div>
             </Box>

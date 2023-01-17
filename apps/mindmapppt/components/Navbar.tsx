@@ -15,7 +15,9 @@ export const NavBar = () => {
        </nav> */}
             <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center'>
                {/* <a className='md:mr-6 hover:text-gray-900'>登录</a> */}
-               <a className='md:mr-6 text-gray-300 hover:text-gray-300 cursor-not-allowed'>登录</a>
+               <a className='md:mr-6 text-gray-300 hover:text-gray-300 cursor-not-allowed'>
+                  登录
+               </a>
             </nav>
             {/* <button className='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0'>
                注册

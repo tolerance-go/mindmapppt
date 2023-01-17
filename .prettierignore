@@ -1,4 +1,5 @@
 /dependents/*
-!/dependents/tailwindcss
-!/dependents/iron-session
-!/dependents/satori
+.next/
+.data/
+out/
+.temp/

@@ -1,17 +1,17 @@
 {
    "$schema": "https://turbo.build/schema.json",
-   "globalEnv": ["SECRET_COOKIE_PASSWORD", "NODE_ENV"],
+   "globalEnv": ["NODE_ENV"],
    "pipeline": {
       "lint": {
          "outputs": []
       },
       "build": {
          "dependsOn": ["lint", "^build"],
-         "outputs": ["dist*/**", "lib/**", "es/**", "build/**", ".next/**"]
+         "outputs": ["dist/**", "lib/**", "es/**", "build/**", ".next/**"]
       },
       "test": {
          "dependsOn": ["build"],
-         "outputs": ["test-build/**", "coverage/**"]
+         "outputs": ["coverage/**"]
       }
    }
 }

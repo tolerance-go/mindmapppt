@@ -4,7 +4,11 @@ import { xmindToMMData } from '../xmindToMMData'
 describe('xmindToMMData', () => {
    test('xmindToMMDataV2x', async () => {
       expect(
-         JSON.stringify(xmindToMMData(path.join(__dirname, 'xmind-data-2.x')), null, 2),
+         JSON.stringify(
+            xmindToMMData(path.join(__dirname, 'xmind-data-2.x')),
+            null,
+            2,
+         ),
       ).toMatchSnapshot()
    })
 

@@ -10,9 +10,7 @@ export default function PlaygroundRevealLayout({
       <StyledJsxRegistry>
          <html>
             <head />
-            <body>
-               {children}
-            </body>
+            <body>{children}</body>
          </html>
       </StyledJsxRegistry>
    )

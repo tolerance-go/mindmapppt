@@ -1,5 +1,5 @@
-import { MMDataToReval } from '../../../index'
 import Script from 'next/script'
+import { MMDataToReval } from '../../../index'
 
 export default async function PlaygroundRevealPage() {
    return (

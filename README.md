@@ -32,14 +32,14 @@
          1. 可以和 turbo 配置将输出进行缓存
       3. sourcemap 配合 dev 命令一起的，而且它应该加入忽略，总之和 collect 关系不大
       4. 结论目前是不加
-19. 根目录的 gitignore 不会影响 submodule 中的项目
-20. tsup 需要区分 dev 和 prod 环境选择性压缩吗？
-    1.  不需要，ci 的思路，开发和生产的代码尽量保证一致性，避免出现意外的问题
-    2.  并且因为现在 esbuild 和 swc 已经够快了，压缩不压缩时间都差别不大
-21. 在 nextjs 中 spa 页面，似乎要 a 标签处理，否则有些逻辑不执行
-22. 外部项目 clone 下来，注意 pnpm-workspace
-    1.  删除
-    2.  合并
+19.   根目录的 gitignore 不会影响 submodule 中的项目
+20.   tsup 需要区分 dev 和 prod 环境选择性压缩吗？
+      1. 不需要，ci 的思路，开发和生产的代码尽量保证一致性，避免出现意外的问题
+      2. 并且因为现在 esbuild 和 swc 已经够快了，压缩不压缩时间都差别不大
+21.   在 nextjs 中 spa 页面，似乎要 a 标签处理，否则有些逻辑不执行
+22.   外部项目 clone 下来，注意 pnpm-workspace
+      1. 删除
+      2. 合并
 
 !!!
 turbo 破坏缓存的规则
