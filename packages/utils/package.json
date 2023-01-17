@@ -7,9 +7,8 @@
    "author": "",
    "main": "index.ts",
    "scripts": {
-      "clean": "rimraf node_modules",
       "dev:test": "vitest -u",
-      "test": "vitest run"
+      "test": "vitest run --passWithNoTests"
    },
    "dependencies": {
       "jquery": "^3.6.1",
