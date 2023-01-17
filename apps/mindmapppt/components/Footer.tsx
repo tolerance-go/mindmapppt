@@ -50,6 +50,14 @@ export const Footer = () => {
 
          <span className='text-sm text-gray-600 dark:text-gray-300'>
             © Copyright 2022. All Rights Reserved.
+            <a
+               className='pl-2'
+               href='https://beian.miit.gov.cn/#/Integrated/index'
+               target={'_blank'}
+               rel='noreferrer'
+            >
+               皖ICP备2022017176号-2
+            </a>
          </span>
       </footer>
    )
