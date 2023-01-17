@@ -1,0 +1,6 @@
+[submodule "dependents/impress"]
+	path = dependents/impress
+	url = git@github.com:tolerance-go/impress.js.git
+[submodule "dependents/reveal"]
+	path = dependents/reveal
+	url = git@github.com:tolerance-go/reveal.js.git

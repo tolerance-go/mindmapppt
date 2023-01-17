@@ -1,0 +1,29 @@
+{
+   "name": "@mindmapppt/utils",
+   "version": "1.0.0",
+   "description": "",
+   "keywords": [],
+   "license": "ISC",
+   "author": "",
+   "main": "index.ts",
+   "scripts": {
+      "clean": "rimraf node_modules",
+      "dev:test": "vitest -u",
+      "test": "vitest run"
+   },
+   "dependencies": {
+      "jquery": "^3.6.1",
+      "lodash.mapvalues": "^4.6.0",
+      "next": "^13.0.7",
+      "react": "^18.2.0",
+      "react-hook-form": "^7.41.0",
+      "styled-jsx": "^5.1.0",
+      "tiny-invariant": "^1.3.1"
+   },
+   "devDependencies": {
+      "@types/jquery": "^3.5.14",
+      "@types/lodash.mapvalues": "^4.6.7",
+      "@types/react": "^18.0.25",
+      "vitest": "0.21.1"
+   }
+}

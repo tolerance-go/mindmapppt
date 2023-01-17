@@ -1,0 +1,4 @@
+/dependents/*
+!/dependents/tailwindcss
+!/dependents/iron-session
+!/dependents/satori

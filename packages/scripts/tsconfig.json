@@ -1,0 +1,18 @@
+{
+   "$schema": "https://json.schemastore.org/tsconfig",
+   "compilerOptions": {
+      "target": "esnext",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "incremental": true,
+      "outDir": "dist"
+   },
+   "include": ["cli/**/*.ts"],
+   "exclude": ["node_modules"]
+}

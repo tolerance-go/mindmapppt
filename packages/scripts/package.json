@@ -1,0 +1,26 @@
+{
+   "name": "@mindmapppt/scripts",
+   "version": "1.0.0",
+   "type": "module",
+   "description": "",
+   "keywords": [],
+   "license": "ISC",
+   "author": "",
+   "bin": {
+      "fenxing": "./cli/index.ts"
+   },
+   "scripts": {
+      "clean": "rimraf node_modules dist",
+      "test-": "echo \"Error: no test specified\" && exit 1"
+   },
+   "dependencies": {
+      "chokidar": "^3.5.3",
+      "commander": "^9.4.1",
+      "lodash.debounce": "^4.0.8",
+      "zx": "^7.1.1"
+   },
+   "devDependencies": {
+      "@types/lodash.debounce": "^4.0.7",
+      "typescript": "^4.9.3"
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "name": "@mindmapppt/impress-scripts",
+   "version": "1.0.0",
+   "description": "",
+   "keywords": [],
+   "license": "ISC",
+   "author": "",
+   "main": "index.js",
+   "scripts": {
+      "build": "rollup --config --silent"
+   },
+   "devDependencies": {
+      "rollup": "^2.48.0"
+   },
+   "dependencies": {
+      "impress.js": "workspace:^1.1.0"
+   }
+}

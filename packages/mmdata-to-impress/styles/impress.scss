@@ -1,0 +1,72 @@
+@import './themes/template/exposer';
+@import './themes/template/settings';
+
+// override
+// ...
+
+:root {
+   @include themeVars;
+}
+
+@include themeFragments;
+
+.step {
+   position: relative;
+   width: 900px;
+   padding: 40px;
+   margin: 20px auto;
+   box-sizing: border-box;
+   line-height: 1.5;
+   text-align: center;
+}
+
+//====================== 初始化 * 开始 ======================
+
+.impress-wrapper {
+   display: none;
+}
+
+.fallback-message {
+   display: none;
+
+   font-size: 24px;
+   font-family: sans-serif;
+   line-height: 1.3;
+
+   width: 780px;
+   padding: 10px 20px;
+   margin: 20px auto;
+
+   border: 1px solid #e4c652;
+   border-radius: 10px;
+   background: #eedc94;
+}
+
+b {
+   font-weight: bold;
+}
+
+//====================== 初始化 * 结束 ======================
+
+.impress-enabled {
+   .step {
+      margin: 0;
+      opacity: 0.1;
+
+      transition: opacity 1s;
+
+      &.active {
+         opacity: 1;
+      }
+   }
+
+   .impress-wrapper {
+      display: initial;
+   }
+}
+
+.impress-not-supported {
+   .fallback-message {
+      display: initial;
+   }
+}

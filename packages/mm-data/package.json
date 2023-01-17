@@ -1,0 +1,15 @@
+{
+   "name": "@mindmapppt/mm-data",
+   "version": "1.0.0",
+   "description": "定义脑图中间的数据格式",
+   "keywords": [],
+   "license": "ISC",
+   "author": "",
+   "main": "index.ts",
+   "scripts": {
+      "clean": "rimraf .turbo node_modules"
+   },
+   "devDependencies": {
+      "eslint-config-next": "^13.0.5"
+   }
+}

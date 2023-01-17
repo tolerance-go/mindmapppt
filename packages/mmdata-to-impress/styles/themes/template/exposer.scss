@@ -1,0 +1,46 @@
+// Exposes theme's variables for easy re-use in CSS for plugin authors
+
+@mixin themeVars {
+   // --i-background-color: #{$backgroundColor};
+   // --i-main-font: #{$mainFont};
+   --i-main-font-size: #{$mainFontSize};
+   --i-heading-font-size-base: #{$headingSizeBase};
+   // --i-main-color: #{$mainColor};
+   --i-block-margin: #{$blockMargin};
+   --i-heading-margin: #{$headingMargin};
+   // --i-heading-font: #{$headingFont};
+   // --i-heading-color: #{$headingColor};
+   // --i-heading-line-height: #{$headingLineHeight};
+   // --i-heading-letter-spacing: #{$headingLetterSpacing};
+   // --i-heading-text-transform: #{$headingTextTransform};
+   // --i-heading-text-shadow: #{$headingTextShadow};
+   // --i-heading-font-weight: #{$headingFontWeight};
+   // --i-heading1-text-shadow: #{$heading1TextShadow};
+   // --i-heading1-size: #{$heading1Size};
+   // --i-heading2-size: #{$heading2Size};
+   // --i-heading3-size: #{$heading3Size};
+   // --i-heading4-size: #{$heading4Size};
+   // --i-code-font: #{$codeFont};
+   // --i-link-color: #{$linkColor};
+   // --i-link-color-dark: #{darken($linkColor, 15%)};
+   // --i-link-color-hover: #{$linkColorHover};
+   // --i-selection-background-color: #{$selectionBackgroundColor};
+   // --i-selection-color: #{$selectionColor};
+}
+
+@mixin themeFragments {
+   @for $i from 1 through 6 {
+      h#{7 - $i} {
+         font-size: $i * $headingSizeBase;
+         margin: var(--i-heading-margin);
+      }
+   }
+
+   p {
+      font-size: 2 * $headingSizeBase;
+   }
+
+   #impress {
+      font-size: var(--i-main-font-size);
+   }
+}

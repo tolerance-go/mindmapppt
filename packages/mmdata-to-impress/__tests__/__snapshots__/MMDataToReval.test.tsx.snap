@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MMDataToImpress 1`] = `
+[
+  <div
+    className="fallback-message"
+  >
+    <p>
+      您的浏览器 
+      <b>
+        不支持某些必备的功能
+      </b>
+      ， 所以你会看到这条简化的提示信息
+    </p>
+    <p>
+      为了获得最佳体验，请使用最新版本 
+      <b>
+        Chrome
+      </b>
+      ，
+      <b>
+        Safari
+      </b>
+       或
+       
+      <b>
+        Firefox
+      </b>
+       的浏览器.
+    </p>
+  </div>,
+  <div
+    className="impress-wrapper"
+  >
+    <div
+      data-height="768"
+      data-perspective="1000"
+      data-transition-duration="1000"
+      data-width="1024"
+      id="impress"
+    >
+      <div
+        className="step"
+        data-deep-level={0}
+        data-x={0}
+        data-y={0}
+        data-z={-0}
+      >
+        <h2>
+          中心主题
+        </h2>
+      </div>
+      <div
+        className="step"
+        data-deep-level={1}
+        data-x={-2250}
+        data-y={0}
+        data-z={-3000}
+      >
+        <h2>
+          分支主题 1
+        </h2>
+      </div>
+      <div
+        className="step"
+        data-deep-level={1}
+        data-x={-750}
+        data-y={0}
+        data-z={-3000}
+      >
+        <h2>
+          分支主题 3
+        </h2>
+      </div>
+      <div
+        className="step"
+        data-deep-level={2}
+        data-x={-750}
+        data-y={-750}
+        data-z={-6000}
+      >
+        <h2>
+          子主题 1
+        </h2>
+      </div>
+      <div
+        className="step"
+        data-deep-level={2}
+        data-x={-750}
+        data-y={750}
+        data-z={-6000}
+      >
+        <h2>
+          子主题 2
+        </h2>
+      </div>
+      <div
+        className="step"
+        data-deep-level={1}
+        data-x={-750}
+        data-y={0}
+        data-z={-3000}
+      >
+        <h2>
+          分支主题 3
+        </h2>
+      </div>
+      <div
+        className="step"
+        data-deep-level={1}
+        data-x={750}
+        data-y={0}
+        data-z={-3000}
+      >
+        <h2>
+          分支主题 3
+        </h2>
+      </div>
+      <div
+        className="step"
+        data-deep-level={1}
+        data-x={2250}
+        data-y={0}
+        data-z={-3000}
+      >
+        <h2>
+          分支主题 4
+        </h2>
+      </div>
+    </div>
+    <div
+      id="impress-toolbar"
+    />
+  </div>,
+]
+`;

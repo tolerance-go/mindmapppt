@@ -1,0 +1,317 @@
+[
+   {
+      "id": "83c9da980bea394c49dbe9c43d",
+      "class": "sheet",
+      "title": "画布 1",
+      "rootTopic": {
+         "id": "b6fba32a5998f4471032b9a135",
+         "class": "topic",
+         "title": "中心主题",
+         "structureClass": "org.xmind.ui.brace.right",
+         "titleUnedited": true,
+         "children": {
+            "attached": [
+               {
+                  "title": "分支主题 1",
+                  "titleUnedited": true,
+                  "id": "df33ea79-6532-44db-966a-e50fefdf7205",
+                  "notes": {
+                     "realHTML": {
+                        "content": "<div>asdfasdfasdfasdf<br><br></div><ul><li>sdfasdf</li><li>asdf</li><li>asdf</li><li>asdf</li></ul><div><a href=\"http://asdfasdf\">asdfasdf</a></div><div><br>sdfas<strong>dfasdf</strong></div>"
+                     },
+                     "plain": {
+                        "content": "asdfasdfasdfasdf\n\nsdfasdf\nasdf\nasdf\nasdf\nasdfasdf\n\nsdfasdfasdf\n"
+                     }
+                  },
+                  "labels": ["adsfasdf"],
+                  "href": "http://localhost:56499/examples/auto-animate#/1",
+                  "markers": [{ "markerId": "priority-2" }],
+                  "image": {
+                     "src": "xap:resources/fb96c55c1fee109385d12ae0f8a1630312240654bf936e7c1f56dc4366db1445.svg"
+                  }
+               },
+               {
+                  "title": "分支主题 3",
+                  "titleUnedited": true,
+                  "id": "e4f67763-0c0f-40bb-9622-47a9b2c0cdda",
+                  "children": {
+                     "attached": [
+                        {
+                           "title": "子主题 1",
+                           "titleUnedited": true,
+                           "id": "76dd5dc1-b063-4671-b320-264817cf08b0"
+                        },
+                        {
+                           "title": "子主题 2",
+                           "titleUnedited": true,
+                           "id": "7f89b01d-0ea6-41ac-b03f-1f6a288d4579"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "title": "分支主题 3",
+                  "titleUnedited": true,
+                  "id": "f0846f61-7b67-40eb-932a-7f29d1d81174",
+                  "image": {
+                     "src": "xap:resources/5d17a702161ab1b24451221c3056e22d2240e38ddeaec38c37a95aa420404e74.svg"
+                  }
+               },
+               {
+                  "title": "分支主题 4",
+                  "titleUnedited": true,
+                  "id": "4e26e5f9-b301-48cd-8769-7353e1bbd592",
+                  "image": {
+                     "src": "xap:resources/8964e742bf8ac70b1dc793f2480480a7f4598652e3d99b5d10b04ab4c1aa0294.png"
+                  }
+               }
+            ],
+            "detached": [
+               {
+                  "title": "自由主题",
+                  "titleUnedited": true,
+                  "id": "cf5cf5d9-1cf8-4e83-a61f-1b877ffab8b3",
+                  "position": { "x": -180.5, "y": -117.72222222222217 },
+                  "children": {
+                     "attached": [
+                        {
+                           "title": "子主题 1",
+                           "titleUnedited": true,
+                           "id": "5ae962d1-13c9-42fd-a167-6c09ba364acf"
+                        },
+                        {
+                           "title": "子主题 2",
+                           "titleUnedited": true,
+                           "id": "d06726c2-e949-4297-8dc5-5ec041c0667a"
+                        }
+                     ]
+                  }
+               },
+               {
+                  "title": "自由主题",
+                  "titleUnedited": true,
+                  "id": "004cbcfa-03ea-43c4-b526-fdd36119bffa",
+                  "position": { "x": -49.5, "y": -205.22222222222217 },
+                  "children": {
+                     "attached": [
+                        {
+                           "title": "子主题 1",
+                           "titleUnedited": true,
+                           "id": "c6949c49-3452-4dba-b6d7-6f9feb245b6b",
+                           "children": {
+                              "attached": [
+                                 {
+                                    "title": "子主题 1",
+                                    "titleUnedited": true,
+                                    "id": "9da64ec5-ba3c-437e-bf22-39a31c628096"
+                                 }
+                              ]
+                           }
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      },
+      "extensions": [
+         {
+            "provider": "org.xmind.ui.skeleton.structure.style",
+            "content": { "centralTopic": "org.xmind.ui.brace.right" }
+         }
+      ],
+      "theme": {
+         "id": "c24958b2-5a6e-4b41-9dd6-bb2d9c6bbe6b",
+         "centralTopic": {
+            "id": "c5069014-b642-4cf5-bb50-1d29bd0df2a1",
+            "properties": {
+               "line-color": "#000229",
+               "shape-class": "org.xmind.topicShape.roundedRect",
+               "line-class": "org.xmind.branchConnection.roundedElbow",
+               "line-width": "3pt",
+               "line-pattern": "solid",
+               "fill-pattern": "solid",
+               "border-line-width": "3pt",
+               "arrow-end-class": "org.xmind.arrowShape.none",
+               "alignment-by-level": "actived",
+               "fo:font-family": "Montserrat",
+               "fo:font-style": "normal",
+               "fo:font-weight": 500,
+               "fo:font-size": "24pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "center",
+               "svg:fill": "none"
+            }
+         },
+         "mainTopic": {
+            "id": "70cef26a-bf8a-4a75-a3ba-c39b54a6401d",
+            "properties": {
+               "shape-class": "org.xmind.topicShape.roundedRect",
+               "line-class": "org.xmind.branchConnection.roundedElbow",
+               "fill-pattern": "solid",
+               "fo:font-family": "Montserrat",
+               "fo:font-style": "normal",
+               "fo:font-weight": 400,
+               "fo:font-size": "18pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "left",
+               "line-width": "2pt",
+               "border-line-width": "0pt"
+            }
+         },
+         "subTopic": {
+            "id": "d5c7d9c0-e954-4c99-9e01-91cccd629c22",
+            "properties": {
+               "shape-class": "org.xmind.topicShape.roundedRect",
+               "line-class": "org.xmind.branchConnection.roundedElbow",
+               "fill-pattern": "solid",
+               "fo:font-family": "Montserrat",
+               "fo:font-style": "normal",
+               "fo:font-weight": 400,
+               "fo:font-size": "14pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "left",
+               "svg:fill": "none",
+               "border-line-width": "2pt"
+            }
+         },
+         "summaryTopic": {
+            "id": "dc5d147f-2c2a-423f-8d4f-26c6e4cdc4ec",
+            "properties": {
+               "border-line-color": "#000229",
+               "shape-class": "org.xmind.topicShape.roundedRect",
+               "line-class": "org.xmind.branchConnection.roundedElbow",
+               "fill-pattern": "solid",
+               "fo:font-family": "Montserrat",
+               "fo:font-style": "normal",
+               "fo:font-weight": "400",
+               "fo:font-size": "14pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "center",
+               "svg:fill": "none",
+               "border-line-width": "2"
+            }
+         },
+         "calloutTopic": {
+            "id": "b2ccd2cb-e4d0-4c1d-8615-fea7a1b98854",
+            "properties": {
+               "svg:fill": "#000229",
+               "border-line-color": "#000229",
+               "callout-shape-class": "org.xmind.calloutTopicShape.balloon.roundedRect",
+               "fill-pattern": "solid",
+               "fo:font-family": "Montserrat",
+               "fo:font-style": "normal",
+               "fo:font-weight": 400,
+               "fo:font-size": "14pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "left"
+            }
+         },
+         "floatingTopic": {
+            "id": "1db99452-2bb0-4de8-87f5-cdeb8a591d7b",
+            "properties": {
+               "border-line-color": "#EEEBEE",
+               "shape-class": "org.xmind.topicShape.roundedRect",
+               "line-class": "org.xmind.branchConnection.roundedElbow",
+               "fill-pattern": "solid",
+               "fo:font-family": "Montserrat",
+               "fo:font-style": "normal",
+               "fo:font-weight": "normal",
+               "fo:font-size": "14pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "center",
+               "line-pattern": "solid",
+               "arrow-end-class": "org.xmind.arrowShape.none",
+               "line-width": "2pt",
+               "border-line-width": "0pt",
+               "svg:fill": "#EEEBEE"
+            }
+         },
+         "boundary": {
+            "id": "beaff7ce-691f-481d-847c-c5f43d125660",
+            "properties": {
+               "svg:fill": "#000229",
+               "line-color": "#000229",
+               "shape-class": "org.xmind.boundaryShape.roundedRect",
+               "shape-corner": "20pt",
+               "line-width": "1",
+               "line-pattern": "dash",
+               "fill-pattern": "solid",
+               "fo:font-family": "'Montserrat','NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+               "fo:font-style": "normal",
+               "fo:font-weight": 400,
+               "fo:font-size": "14pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "center"
+            }
+         },
+         "summary": {
+            "id": "7e7d8704-9339-4a37-a8dc-f3a3aa2f4cf2",
+            "properties": {
+               "line-color": "#000229",
+               "shape-class": "org.xmind.summaryShape.square",
+               "line-width": "2",
+               "line-pattern": "solid",
+               "line-corner": "8pt"
+            }
+         },
+         "relationship": {
+            "id": "81c8d0be-6082-4a1c-b88c-23b1445e0647",
+            "properties": {
+               "line-color": "#000229",
+               "shape-class": "org.xmind.relationshipShape.curved",
+               "line-width": "1",
+               "line-pattern": "dot",
+               "arrow-begin-class": "org.xmind.arrowShape.dot",
+               "arrow-end-class": "org.xmind.arrowShape.triangle",
+               "fo:font-family": "'Montserrat','NeverMind','Microsoft YaHei','PingFang SC','Microsoft JhengHei','sans-serif',sans-serif",
+               "fo:font-style": "normal",
+               "fo:font-weight": 400,
+               "fo:font-size": "13pt",
+               "fo:text-transform": "manual",
+               "fo:text-decoration": "none",
+               "fo:text-align": "center"
+            }
+         },
+         "map": {
+            "id": "ea5bbe08-7b7a-4b13-a4ee-49b20dcc4de2",
+            "properties": {
+               "svg:fill": "#FFFFFF",
+               "multi-line-colors": "#F9423A #F6A04D #F3D321 #00BC7B #486AFF #4D49BE",
+               "color-list": "#000229 #1F2766 #52CC83 #4D86DB #99142F #245570",
+               "line-tapered": "none"
+            }
+         },
+         "importantTopic": {
+            "id": "6c4e5a0a-db82-4dc6-9816-213ad1a38238",
+            "properties": { "svg:fill": "#460400", "fill-pattern": "solid" }
+         },
+         "minorTopic": {
+            "id": "febf0c47-d75e-4149-a07f-a44cf847e7ab",
+            "properties": { "svg:fill": "#703D00", "fill-pattern": "solid" }
+         },
+         "colorThemeId": "Rainbow-#000229-MULTI_LINE_COLORS",
+         "expiredTopic": {
+            "id": "0966f042-1447-4478-bfef-b698a7ff8891",
+            "properties": {
+               "fo:text-decoration": "line-through",
+               "svg:fill": "none"
+            }
+         },
+         "global": {
+            "id": "0f0c0e34-c1b8-49e1-bd18-9dccbd179d62",
+            "properties": {}
+         },
+         "skeletonThemeId": "e61ab87dcac9e31dc0adba85ce"
+      },
+      "topicPositioning": "fixed",
+      "coreVersion": "3.82.0"
+   }
+]

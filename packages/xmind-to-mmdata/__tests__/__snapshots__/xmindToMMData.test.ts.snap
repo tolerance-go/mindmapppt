@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`xmindToMMData version range 1`] = `"xmind 画布版本 3.82.0 当前不支持解析，请联系管理员新增"`;
+
+exports[`xmindToMMData xmindToMMDataV2x 1`] = `
+"[
+  {
+    "id": "b6fba32a5998f4471032b9a135",
+    "title": "中心主题",
+    "children": [
+      {
+        "id": "df33ea79-6532-44db-966a-e50fefdf7205",
+        "title": "分支主题 1",
+        "content": "asdfasdfasdfasdf\\n\\nsdfasdf\\nasdf\\nasdf\\nasdf\\nasdfasdf\\n\\nsdfasdfasdf\\n",
+        "contentHTML": "<div>asdfasdfasdfasdf<br><br></div><ul><li>sdfasdf</li><li>asdf</li><li>asdf</li><li>asdf</li></ul><div><a href=\\"http://asdfasdf\\">asdfasdf</a></div><div><br>sdfas<strong>dfasdf</strong></div>",
+        "imgUrls": [
+          "/resources/fb96c55c1fee109385d12ae0f8a1630312240654bf936e7c1f56dc4366db1445.svg"
+        ],
+        "children": []
+      },
+      {
+        "id": "e4f67763-0c0f-40bb-9622-47a9b2c0cdda",
+        "title": "分支主题 3",
+        "children": [
+          {
+            "id": "76dd5dc1-b063-4671-b320-264817cf08b0",
+            "title": "子主题 1",
+            "children": []
+          },
+          {
+            "id": "7f89b01d-0ea6-41ac-b03f-1f6a288d4579",
+            "title": "子主题 2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "f0846f61-7b67-40eb-932a-7f29d1d81174",
+        "title": "分支主题 3",
+        "imgUrls": [
+          "/resources/5d17a702161ab1b24451221c3056e22d2240e38ddeaec38c37a95aa420404e74.svg"
+        ],
+        "children": []
+      },
+      {
+        "id": "4e26e5f9-b301-48cd-8769-7353e1bbd592",
+        "title": "分支主题 4",
+        "imgUrls": [
+          "/resources/8964e742bf8ac70b1dc793f2480480a7f4598652e3d99b5d10b04ab4c1aa0294.png"
+        ],
+        "children": []
+      }
+    ]
+  }
+]"
+`;

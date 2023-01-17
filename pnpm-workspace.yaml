@@ -1,0 +1,7 @@
+packages:
+   - 'packages/*'
+   - 'dependents/*'
+   - 'apps/*'
+   - 'dependents/satori/playground'
+   - 'packages/tailwind-widgets/examples'
+   - 'packages/nooo-ui-widgets-sidebar/examples'

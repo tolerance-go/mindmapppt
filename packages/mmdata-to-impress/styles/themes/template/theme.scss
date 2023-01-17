@@ -1,0 +1,7 @@
+@import './exposer';
+
+html.#{$themeType} {
+   @include themeVars;
+
+   @include themeFragments;
+}

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loads and displays greeting: hello there 1`] = `
+<div
+  className="reveal"
+>
+  <div
+    className="slides"
+  >
+    <section>
+      <h2>
+        中心主题
+      </h2>
+    </section>
+    <section>
+      <h2>
+        分支主题 1
+      </h2>
+    </section>
+    <section>
+      <section>
+        <h2>
+          分支主题 3
+        </h2>
+      </section>
+      <section>
+        <h2>
+          子主题 1
+        </h2>
+      </section>
+    </section>
+    <section>
+      <h2>
+        分支主题 3
+      </h2>
+    </section>
+    <section>
+      <h2>
+        分支主题 4
+      </h2>
+    </section>
+  </div>
+</div>
+`;

@@ -1,0 +1,4 @@
+div[data-nextjs-scroll-focus-boundary] {
+   height: 100%;
+   position: relative;
+}
