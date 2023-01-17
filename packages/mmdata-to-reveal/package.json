@@ -7,7 +7,7 @@
    "author": "",
    "main": "index.ts",
    "scripts": {
-      "copy": "cp ./node_modules/@mindmapppt/reveal-scripts/bundle.js ./examples/public/reveal-scripts.js",
+      "copy": "cp ./node_modules/@mindmapppt/reveal-scripts/dist/bundle.js ./examples/public/reveal-scripts.js",
       "dev": "cd examples && next dev -p 3212",
       "clean": "rimraf .turbo node_modules",
       "test": "jest"
